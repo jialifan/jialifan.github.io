@@ -153,11 +153,9 @@ a {
 
 .about-layout {
   display: grid;
-  grid-template-columns: 46% 54%;
-  gap: 75px;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 70px;
   align-items: start;
-
-  /* overrides the older general section styling */
   padding: 0;
   border-top: none;
 }
@@ -170,7 +168,6 @@ a {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 
 .about-text {
@@ -178,18 +175,18 @@ a {
 }
 
 .about-text h1 {
-  margin: 0 0 35px;
-  font-size: 46px;
+  margin: 0 0 32px;
+  font-size: 38px;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .about-text p {
-  max-width: 650px;
-  margin: 0 0 24px;
-  font-size: 17px;
-  line-height: 1.75;
+  max-width: 620px;
+  margin: 0 0 22px;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .research-interests {
