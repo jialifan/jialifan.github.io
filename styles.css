@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -27,11 +28,10 @@ body {
 
 .site-name {
   font-family: "Mrs Saint Delafield", cursive;
-  font-size: 48px;
-  font-style: italic;
-  font-weight: 500;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1;
-  letter-spacing: -0.5px;
   text-decoration: none;
   color: #181818;
   white-space: nowrap;
