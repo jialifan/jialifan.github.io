@@ -308,3 +308,95 @@ a {
     gap: 18px;
   }
 }
+/* CLEAN RESEARCH PAGE */
+
+.research-page {
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  padding: 65px 40px 120px !important;
+}
+
+/* Research introduction */
+
+.research-page .research-intro {
+  display: grid !important;
+  grid-template-columns: 220px minmax(0, 1fr) !important;
+  gap: 60px !important;
+  align-items: start !important;
+  padding: 0 0 70px !important;
+  border: none !important;
+}
+
+.research-intro h1 {
+  margin: 0 !important;
+  font-size: 38px !important;
+  font-weight: 500 !important;
+  line-height: 1.1 !important;
+}
+
+.research-intro p {
+  margin: 0 !important;
+  max-width: 650px !important;
+  font-size: 18px !important;
+  line-height: 1.65 !important;
+}
+
+
+/* Project list */
+
+.research-page .research-projects {
+  display: block !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.research-page .research-project {
+  display: grid !important;
+  grid-template-columns: 260px minmax(0, 1fr) !important;
+  gap: 70px !important;
+  align-items: start !important;
+
+  margin: 0 !important;
+  padding: 38px 0 44px !important;
+  border-top: 1px solid #d8d8d8 !important;
+}
+
+.research-project h2 {
+  margin: 0 !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  line-height: 1.35 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+.research-project p {
+  margin: 0 !important;
+  max-width: 650px !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+  .research-page {
+    padding: 45px 22px 80px !important;
+  }
+
+  .research-page .research-intro {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding-bottom: 55px !important;
+  }
+
+  .research-page .research-project {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+    padding: 30px 0 36px !important;
+  }
+}
