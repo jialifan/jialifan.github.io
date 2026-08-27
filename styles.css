@@ -15,29 +15,44 @@ body {
   line-height: 1.65;
 }
 
-header {
+.site-header {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 45px 40px 30px;
+  padding: 36px 40px 26px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 40px;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 27px;
+.site-name {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 36px;
+  font-style: italic;
   font-weight: 500;
+  line-height: 1;
   letter-spacing: -0.5px;
+  text-decoration: none;
+  color: #181818;
+  white-space: nowrap;
 }
 
 nav {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
+nav a {
+  color: #181818;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 nav a {
   color: #181818;
   text-decoration: none;
