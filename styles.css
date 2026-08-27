@@ -143,3 +143,94 @@ a {
     font-size: 18px;
   }
 }
+/* ABOUT / HOME PAGE */
+
+.about-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 65px 40px 120px;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: 46% 54%;
+  gap: 75px;
+  align-items: start;
+
+  /* overrides the older general section styling */
+  padding: 0;
+  border-top: none;
+}
+
+.about-photo {
+  width: 100%;
+}
+
+.about-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.about-text {
+  padding-top: 5px;
+}
+
+.about-text h1 {
+  margin: 0 0 35px;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.about-text p {
+  max-width: 650px;
+  margin: 0 0 24px;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.research-interests {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.research-interests h2 {
+  margin: 0 0 14px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.research-interests p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .about-page {
+    padding: 40px 22px 80px;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .about-text h1 {
+    font-size: 38px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}
