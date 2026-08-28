@@ -500,3 +500,42 @@ nav a:hover {
     padding: 28px 0 32px;
   }
 }
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 65px 40px 110px;
+}
+
+.contact-content {
+  max-width: 650px;
+  padding-top: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+.contact-content p {
+  margin: 0;
+  padding: 26px 0;
+  border-bottom: 1px solid #dddddd;
+
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333333;
+}
+
+.contact-content strong {
+  font-weight: 500;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .contact-page {
+    padding: 42px 22px 80px;
+  }
+}
