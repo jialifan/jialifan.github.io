@@ -444,3 +444,59 @@ nav a:hover {
     padding: 28px 0 32px;
   }
 }
+/* =========================
+   MEDIA PAGE
+========================= */
+
+.media-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 65px 40px 110px;
+}
+
+.media-list {
+  border-top: 1px solid #dddddd;
+}
+
+.media-item {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 55px;
+
+  padding: 34px 0 38px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.media-item h2 {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.media-item p {
+  margin: 0;
+  max-width: 650px;
+
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444444;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .media-page {
+    padding: 42px 22px 80px;
+  }
+
+  .media-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 28px 0 32px;
+  }
+}
