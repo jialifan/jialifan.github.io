@@ -161,7 +161,7 @@ nav a:hover {
 
 .research-card h2 {
   margin: 0;
-  padding-right: 45px;
+  padding-right: 0;
 
   max-width: 360px;
 
@@ -179,35 +179,6 @@ nav a:hover {
   font-size: 14px;
   line-height: 1.72;
   color: #444444;
-}
-
-
-/* Project numbers */
-
-.research-card::after {
-  position: absolute;
-  top: 36px;
-  right: 36px;
-
-  font-size: 11px;
-  letter-spacing: 1px;
-  color: #888888;
-}
-
-.research-card:nth-child(1)::after {
-  content: "01";
-}
-
-.research-card:nth-child(2)::after {
-  content: "02";
-}
-
-.research-card:nth-child(3)::after {
-  content: "03";
-}
-
-.research-card:nth-child(4)::after {
-  content: "04";
 }
 
 
@@ -258,7 +229,7 @@ nav a:hover {
 
   .research-card h2 {
     font-size: 24px;
-    padding-right: 40px;
+    padding-right: 0;
   }
 
   .research-card::after {
