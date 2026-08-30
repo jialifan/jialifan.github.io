@@ -713,3 +713,12 @@ nav a:hover {
 .teaching-modules li:last-child {
   border-bottom: none;
 }
+.contact-content a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
