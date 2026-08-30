@@ -549,3 +549,21 @@ nav a:hover {
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
+.teaching-modules {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.teaching-modules li {
+  margin: 0;
+  padding: 9px 0;
+  border-bottom: 1px solid #eeeeee;
+
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.teaching-modules li:last-child {
+  border-bottom: none;
+}
