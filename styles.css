@@ -57,14 +57,18 @@ a {
 nav {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 nav a {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
   text-decoration: none;
   color: #777777;
+
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
