@@ -64,10 +64,17 @@ nav {
 nav a {
   font-size: 14px;
   text-decoration: none;
+  color: #777777;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #181818;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: #181818;
+  font-weight: 500;
 }
 
 
